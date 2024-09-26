@@ -1,0 +1,6 @@
+Understanding Numbers In Python 
+Python has two number types: integers and floats 
+   -integer = whole numbers (positive or negative) 
+   -floats = numbers with decimal point ex.) 1.0 
+Note: when doing math in python integers will always be rounded down to the whole number. In order to get an answer in decimal form use float. 
+ex.) 1.0/1.0 =1.0 or 18.5/5.2 ==3.558
