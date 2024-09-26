@@ -1,6 +1,26 @@
-Understanding Numbers In Python 
-Python has two number types: integers and floats 
-   -integer = whole numbers (positive or negative) 
-   -floats = numbers with decimal point ex.) 1.0 
-Note: when doing math in python integers will always be rounded down to the whole number. In order to get an answer in decimal form use float. 
-ex.) 1.0/1.0 =1.0 or 18.5/5.2 ==3.558
+In Python, numbers are classified into several types, and each type has its own behavior and usage. Here's an overview of the main number types and how they work in Python:
+
+1. Integer (int)
+      Whole numbers without a fractional component (e.g., 1, 100, -42).
+Usage:
+You can perform standard arithmetic operations
+Python int type has no size limit (it's only limited by available memory), so you can work with very large integers.
+
+2. Floating Point (float)
+      Numbers that have a fractional part, represented by a decimal point (e.g., 3.14, 0.001, -7.5).
+Usage:
+Supports arithmetic operations just like integers 
+ -however may involve precision limitations due to how floating-point numbers are stored in memory.
+Floats c an represent very small or very large numbers using scientific notation (e.g., 1.2e3 for 1200).
+
+3. Complex Numbers (complex)
+Description: Numbers with both a real and an imaginary component. Python represents them as a + bj where a is the real part and b is the imaginary part.
+Usage:
+Useful in scientific and engineering computations.
+You can access the real part with .real and the imaginary part with .imag.
+
+4. Boolean (bool)
+Description: A type that represents truth values True and False, but under the hood, True is equivalent to 1 and False is equivalent to 0.
+Usage:
+Can be used in arithmetic operations, where True behaves like 1 and False behaves like 0.
+
